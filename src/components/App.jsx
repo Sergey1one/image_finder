@@ -20,17 +20,7 @@ export class App extends Component  {
     pageGallery: 1,
   }
   
-  componentDidUpdate(prevProps, prevState) {
-  
-    const prevQuery = prevState.searchInput;
-    const currentQuery = this.state.searchInput;
-    const prevPage = prevState.pageGallery;
-    const currentPage = this.state.pageGallery;
 
-
-    console.log(prevQuery)
-
-}
   
 
   onSearchSubmit = async ({ input }) => {
